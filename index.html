@@ -28,7 +28,7 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Muzammil</a>
+	      <a class="navbar-brand" href="index.html">SMA</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -46,17 +46,17 @@
 	      </div>
 	    </div>
 	  </nav>
-	  <section id="home-section" class="hero">
+	  <section id="home-section" class="hero" >
 		  <div class="home-slider  owl-carousel">
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
+	          	<div class="one-third js-fullheight order-md-last img " style="background-image:url(images/m1.png);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
+		          	<div class="text" style="margin-top: -1px;">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Syed Muzammil Abbas</span></h1>
 						<h2 class="mb-4">A Freelance Developer</h2>
@@ -71,11 +71,11 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/new1.png);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
+		          	<div class="text"style="margin-top: -1px;">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm a <span>Full / MERN Stack Developer</span> based in Asia</h1>
 			            <p><a href="https://www.upwork.com/freelancers/~0188784b1bcb759494" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
@@ -86,14 +86,33 @@
 	      </div>
 	    </div>
     </section>
-
+	<style>
+		/* Default styles for larger screens */
+		.slider-item {
+		  position: relative;
+		}
+	  
+		.one-forth {
+		  position: absolute;
+		  bottom: 0;
+		}
+	  
+		/* Media query for screens smaller than 768px (typical mobile screens) */
+		@media (max-width: 768px) {
+		  .one-forth {
+			position: static;
+			margin-top: 100px; /* Adjust this value as needed */
+		  }
+		}
+	  </style>
+	  
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 col-lg-5 d-flex">
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_1.png);">
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/m1.png);">
 	    				</div>
     				</div>
     			</div>
@@ -565,31 +584,23 @@
 							<div class="row">
 			
 							<div class="card col-md-3 col-sm-6 mx-3 bg-dark mb-3" style="width: 18rem;">
-								<img class="card-img-top" src="images/pic3.jpg" style="margin-top: 15px;" alt="Card image cap">
+								<img class="card-img-top" src="images/react1.png" style="margin-top: 15px; height: 150px;" alt="Card image cap">
 								<div class="card-body">
-								  <h5 class="card-title">10</h5>
-								  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								  <a href="#" class="btn btn-primary">Live Preview</a>
+								  <h5 class="card-title">Youtube Clone</h5>
+								  <p class="card-text">The Clone of youtube is created using reactJs and Rapid API.</p>
+								  <a href="https://reactjs-youtubeclone.netlify.app/" class="btn btn-primary">Live Preview</a>
 								</div>
 						  </div>
 			
 						  <div class="card col-md-3 col-sm-6 mx-3 bg-dark mb-3" style="width: 18rem;">
-							<img class="card-img-top" src="images/pic3.jpg" style="margin-top: 15px;" alt="Card image cap">
+							<img class="card-img-top" src="images/react2.png" style="margin-top: 15px; height: 150px;" alt="Card image cap">
 							<div class="card-body">
-							  <h5 class="card-title">11</h5>
-							  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							  <a href="#" class="btn btn-primary">Live Preview</a>
+							  <h5 class="card-title">Text Analyser</h5>
+							  <p class="card-text">This is the text analyser created using reactJs , which perform all funtion of counting , lowercase , Upercase etc.</p>
+							  <a href="https://reactjs-textanalyzer.netlify.app/" class="btn btn-primary">Live Preview</a>
 							</div>
 					  </div>
 			
-					  <div class="card col-md-3 col-sm-6 mx-3 bg-dark mb-3" style="width: 18rem;">
-						<img class="card-img-top" src="images/pic3.jpg" style="margin-top: 15px;" alt="Card image cap">
-						<div class="card-body">
-						  <h5 class="card-title">12</h5>
-						  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						  <a href="#" class="btn btn-primary">Live Preview</a>
-						</div>
-				  </div>
 			
 						</div>
 						</div>
@@ -715,7 +726,7 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div class="img" style="background-image: url(images/about.jpg);"></div>
+          	<div class="img" style="background-image: url(images/new1.png); margin-top: -40px;"></div>
           </div>
         </div>
       </div>

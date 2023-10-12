@@ -451,28 +451,28 @@ h1, h2, h3, h4, h5,
 						}
 					}
 				}
-				.one-forth{
+				.one-forth {
 					width: 50%;
 					position: relative;
-					@include media-breakpoint-up(md){
-						position: absolute;
-						top: 0;
-						left: 0;
-						bottom: 0;
-						right: 0;
-						width: 1200px;
-						margin: 0 auto;
+				  
+					@include media-breakpoint-up(md) {
+					  position: absolute;
+					  top: 0;
+					  left: 0;
+					  bottom: 0;
+					  right: 0;
+					  width: 1200px;
+					  margin: 0 auto;
 					}
-					@include media-breakpoint-down(md){
-						width: 100%;
-						position: absolute;
-						top: 0;
-						left: 0;
-						right: 0;
-						bottom: 0;
-						z-index: 1;
-						padding: 1em;
+				  
+					@include media-breakpoint-down(md) {
+					  width: 100%;
+					  position: static; /* Change to static positioning for mobile */
+					  margin-top: 200px; /* Adjust this value as needed */
+					  z-index: 1;
+					  padding: 1em;
 					}
+				  }
 					.text{
 						width: 100%;
 						@include media-breakpoint-up(lg){
